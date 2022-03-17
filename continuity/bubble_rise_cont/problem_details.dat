@@ -1,0 +1,35 @@
+--------------------------------------------- 
+TITLE = Bubble rise 
+--------------------------------------------- 
+
+----------------problem description----------------
+problem dimensionality= 2
+no. of fixed ghost particle layers= 4
+
+----------------domain description----------------
+domain size(fluid) -->> l= 1; h= 2; w= 0
+domain size(including virtual layers) -->> L= 1.07921; H= 2.0796; W= 0
+no. of particles -->> nx= 100; ny= 200; nz= 0
+initial inter-particle spacing -->> dx= 0.00990099; dy= 0.00995025; dz= 0
+co-efficient of initial spacing for smoothing length= 1.3
+smoothing length h= 0.0129353
+no. of wall particles -->> nx_wall= 102; ny_wall= 202; nz_wall= 0
+no. of virtual particles -->nx_vir=110,ny_vir=210,nz_vir=0
+size of virtual layer -->vir_lx=382719858,vir_ly=-1367551776,vir_lz=0
+no. of cells -->>NX= 28; NY= 54; NZ= 1
+cell_l= 0.0388073
+total no. of cells= 1512
+total particles =23100
+total fluid particles =20000
+total water particles =18010
+total air particles =1990
+total wall particles =604
+total fixed virtual particles =2496
+----------------fluid properties----------------
+density= 1000
+density of air= 100
+dynamic viscosity of air= 1
+Background pressure= 100
+initial sound speed= 10
+initial sound speed= 14.14
+dynamic viscosity of water= 10
