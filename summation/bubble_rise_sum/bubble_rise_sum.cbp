@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="bubble_rise_sum" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/bubble_rise_cont" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/bubble_rise_cont" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../adami_wbt.cpp" />
+		<Unit filename="../add_raise.cpp" />
+		<Unit filename="../add_wall.cpp" />
+		<Unit filename="../additional_wall.cpp" />
+		<Unit filename="../apply_hpsr.cpp" />
+		<Unit filename="../art_vis_wcsph_.cpp" />
+		<Unit filename="../avg_vel.cpp" />
+		<Unit filename="../body_force.cpp" />
+		<Unit filename="../cell_.cpp" />
+		<Unit filename="../const.h" />
+		<Unit filename="../continuity_den_.cpp" />
+		<Unit filename="../create_air_particles.cpp" />
+		<Unit filename="../create_fluid_particle.cpp" />
+		<Unit filename="../create_virtual_particle.cpp" />
+		<Unit filename="../create_wall_particle.cpp" />
+		<Unit filename="../header.h" />
+		<Unit filename="../internal_energy_wcsph.cpp" />
+		<Unit filename="../kernel.cpp" />
+		<Unit filename="../linkedlist _modified.cpp" />
+		<Unit filename="../main.cpp" />
+		<Unit filename="../mat2inverse.cpp" />
+		<Unit filename="../mat3inverse.cpp" />
+		<Unit filename="../ncell_list.cpp" />
+		<Unit filename="../pf_wcsph.cpp" />
+		<Unit filename="../post_process.cpp" />
+		<Unit filename="../pr_force.cpp" />
+		<Unit filename="../pressure.cpp" />
+		<Unit filename="../pressure_probe.cpp" />
+		<Unit filename="../print_data.h" />
+		<Unit filename="../quickSort.cpp" />
+		<Unit filename="../quickSort_double.cpp" />
+		<Unit filename="../setup_and_problem_spec.cpp" />
+		<Unit filename="../sum_density.cpp" />
+		<Unit filename="../surfaceTension_force1.cpp" />
+		<Unit filename="../time_integ_vv.cpp" />
+		<Unit filename="../timestep_adapt.cpp" />
+		<Unit filename="../use_mls.cpp" />
+		<Unit filename="../visc_mphase.cpp" />
+		<Unit filename="../wall_force.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
